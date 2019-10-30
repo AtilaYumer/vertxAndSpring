@@ -1,0 +1,4 @@
+package org.faac.ebb.training;
+
+public class Runner {
+}

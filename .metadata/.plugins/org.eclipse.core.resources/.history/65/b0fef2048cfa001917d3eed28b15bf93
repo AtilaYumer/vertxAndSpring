@@ -1,0 +1,14 @@
+package org.faac.ebb.training;
+
+import org.faac.ebb.training.config.SpringConfiguration;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import io.vertx.core.Vertx;
+
+public class Runner {
+	public static void main(String[] args) {
+        
+		Vertx vertx = Vertx.vertx();
+		vertx.deployVerticle(new UserVerticle());
+	}
+}

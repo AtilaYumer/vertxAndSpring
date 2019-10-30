@@ -1,0 +1,19 @@
+package org.faac.ebb.training;
+
+import org.faac.ebb.training.config.SpringConfiguration;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import io.vertx.core.Vertx;
+
+public class Runner {
+	public static void main(String[] args) {
+
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+
+        // Register the spring bean definition java class to load spring beans. 
+        context.register(SpringConfiguration.class);
+        
+		Vertx vertx = Vertx.vertx();
+		vertx.deployVerticle(new UserVerticle());
+	}
+}

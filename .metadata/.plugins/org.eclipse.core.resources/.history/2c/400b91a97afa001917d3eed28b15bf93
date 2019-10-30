@@ -1,0 +1,5 @@
+package org.faac.ebb.training;
+
+public class UserVerticle {
+
+}
