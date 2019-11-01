@@ -9,4 +9,5 @@
 <item elementID="=VertxAndSpring/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1572371354609_2" label="Window Working Set" name="Aggregate for window 1572371354609"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1572498760641_3" label="Window Working Set" name="Aggregate for window 1572498760641"/>
 </workingSetManager>

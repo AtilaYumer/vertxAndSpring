@@ -29,6 +29,6 @@ public class UserVerticle extends AbstractVerticle {
 	}
 
 	private void createUser(RoutingContext context) {
-		userDao.insert();
+		userDao.insert(context, vertx);
 	}
 }
