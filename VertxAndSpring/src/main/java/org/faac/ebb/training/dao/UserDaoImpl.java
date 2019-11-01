@@ -10,9 +10,29 @@ import io.vertx.ext.web.RoutingContext;
 
 public class UserDaoImpl implements UserDao {
 	@Override
-	public void insert(RoutingContext context, Vertx vertx) {
-		JsonObject config = new JsonObject().put("url", "jdbc:postgresql://localhost:5432/training")
-				.put("driver_class", "org.postgresql.Driver").put("user", "postgres").put("password", "postgres")
+	public void insert() {
+	
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void getUsers(RoutingContext context, Vertx vertx) {
+		JsonObject config = new JsonObject()
+				.put("url", "jdbc:postgresql://localhost:5432/training")
+				.put("driver_class", "org.postgresql.Driver")
+				.put("user", "postgres")
+				.put("password", "postgres")
 				.put("max_pool_size", 30);
 
 		SQLClient client = JDBCClient.createNonShared(vertx, config);
@@ -35,18 +55,6 @@ public class UserDaoImpl implements UserDao {
 				System.out.println("No connection.");
 			}
 		});
-	}
-
-	@Override
-	public void update() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void delete() {
-		// TODO Auto-generated method stub
-
 	}
 
 }

@@ -1,6 +1,0 @@
-org\faac\ebb\training\dao\UserDao.class
-org\faac\ebb\training\model\User.class
-org\faac\ebb\training\Runner.class
-org\faac\ebb\training\dao\UserDaoImpl.class
-org\faac\ebb\training\UserVerticle.class
-org\faac\ebb\training\config\SpringConfiguration.class

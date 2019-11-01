@@ -5,9 +5,11 @@ import io.vertx.ext.web.RoutingContext;
 
 public interface UserDao {
 
-	public void insert(RoutingContext context, Vertx vertx);
+	public void insert();
 
 	public void update();
 
 	public void delete();
+	
+	public void getUsers(RoutingContext context, Vertx vertx);
 }

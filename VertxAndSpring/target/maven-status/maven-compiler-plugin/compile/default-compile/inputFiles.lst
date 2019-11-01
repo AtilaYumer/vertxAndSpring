@@ -1,6 +1,6 @@
-C:\Users\bg_04\vertx_eclipse\VertxAndSpring\src\main\java\org\faac\ebb\training\UserVerticle.java
-C:\Users\bg_04\vertx_eclipse\VertxAndSpring\src\main\java\org\faac\ebb\training\dao\UserDao.java
-C:\Users\bg_04\vertx_eclipse\VertxAndSpring\src\main\java\org\faac\ebb\training\model\User.java
-C:\Users\bg_04\vertx_eclipse\VertxAndSpring\src\main\java\org\faac\ebb\training\config\SpringConfiguration.java
-C:\Users\bg_04\vertx_eclipse\VertxAndSpring\src\main\java\org\faac\ebb\training\Runner.java
-C:\Users\bg_04\vertx_eclipse\VertxAndSpring\src\main\java\org\faac\ebb\training\dao\UserDaoImpl.java
+D:\EBB Projects\Training\vertxAndSpring\VertxAndSpring\src\main\java\org\faac\ebb\training\dao\UserDao.java
+D:\EBB Projects\Training\vertxAndSpring\VertxAndSpring\src\main\java\org\faac\ebb\training\model\User.java
+D:\EBB Projects\Training\vertxAndSpring\VertxAndSpring\src\main\java\org\faac\ebb\training\Runner.java
+D:\EBB Projects\Training\vertxAndSpring\VertxAndSpring\src\main\java\org\faac\ebb\training\UserVerticle.java
+D:\EBB Projects\Training\vertxAndSpring\VertxAndSpring\src\main\java\org\faac\ebb\training\config\SpringConfiguration.java
+D:\EBB Projects\Training\vertxAndSpring\VertxAndSpring\src\main\java\org\faac\ebb\training\dao\UserDaoImpl.java

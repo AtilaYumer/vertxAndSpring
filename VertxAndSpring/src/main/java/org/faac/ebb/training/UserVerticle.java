@@ -1,9 +1,9 @@
 package org.faac.ebb.training;
 
-import org.faac.ebb.training.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import io.vertx.core.AbstractVerticle;
+import io.vertx.core.Vertx;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 
@@ -12,13 +12,13 @@ public class UserVerticle extends AbstractVerticle {
 	private static String USER_PATH = "/user";
 
 	@Autowired
-	private UserDao userDao;
+	private UserService userService;
 
 	
 	@Override
 	public void start() throws Exception {
 		Router router = Router.router(vertx);
-		router.get(UserVerticle.USER_PATH + "/create").handler(this::createUser);
+		router.get(UserVerticle.USER_PATH + "/get").handler(this::getUsers);
 
 		vertx.createHttpServer().requestHandler(router::accept).listen(8080);
 	}
@@ -28,7 +28,8 @@ public class UserVerticle extends AbstractVerticle {
 		vertx.close();
 	}
 
-	private void createUser(RoutingContext context) {
-		userDao.insert(context, vertx);
+	private void getUsers(RoutingContext context) {
+		Vertx vertx = Vertx.vertx();
+		userService.findUsers(context, vertx);
 	}
 }

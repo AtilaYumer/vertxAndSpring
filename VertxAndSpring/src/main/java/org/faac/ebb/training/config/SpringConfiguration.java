@@ -1,5 +1,7 @@
 package org.faac.ebb.training.config;
 
+import org.faac.ebb.training.UserService;
+import org.faac.ebb.training.UserServiceImpl;
 import org.faac.ebb.training.UserVerticle;
 import org.faac.ebb.training.dao.UserDao;
 import org.faac.ebb.training.dao.UserDaoImpl;
@@ -15,11 +17,6 @@ import io.vertx.ext.sql.SQLClient;
 @Configuration
 @ComponentScan("org.faac.ebb.training.config")
 public class SpringConfiguration {
-	
-	@Bean
-	public Vertx vertx() {
-		return Vertx.vertx();
-	}
 	@Bean
 	public UserVerticle userVerticle() {
 		return new UserVerticle();
@@ -28,5 +25,10 @@ public class SpringConfiguration {
 	@Bean
 	public UserDao userDao() {
 		return new UserDaoImpl();
+	}
+	
+	@Bean
+	public UserService userService() {
+		return new UserServiceImpl();
 	}
 }
