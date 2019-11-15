@@ -1,6 +1,11 @@
 package org.faac.ebb.training.dao;
 
-import io.vertx.core.Vertx;
+import java.util.List;
+
+import org.faac.ebb.training.model.User;
+
+import io.vertx.core.AsyncResult;
+import io.vertx.core.Handler;
 import io.vertx.ext.web.RoutingContext;
 
 public interface UserDao {
@@ -11,5 +16,5 @@ public interface UserDao {
 
 	public void delete();
 	
-	public void getUsers(RoutingContext context, Vertx vertx);
+	public void getUsers(RoutingContext context, Handler<AsyncResult<List<User>>> resultHandler);
 }

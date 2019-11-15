@@ -1,879 +1,253 @@
-2019-10-29 19:49:13,429 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
-2019-10-29 20:04:01,913 [Worker-8: Creating project "VertxAndSpring"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-29 20:04:03,185 [Worker-8: Creating project "VertxAndSpring"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VertxAndSpring/src/main/java
-2019-10-29 20:04:03,185 [Worker-8: Creating project "VertxAndSpring"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VertxAndSpring/src/main/resources
-2019-10-29 20:04:03,185 [Worker-8: Creating project "VertxAndSpring"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VertxAndSpring/src/test/java
-2019-10-29 20:04:03,185 [Worker-8: Creating project "VertxAndSpring"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VertxAndSpring/src/test/resources
-2019-10-29 20:04:04,309 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:04:04,318 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:04:04,320 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:04:04,325 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:04:50,153 [Worker-19: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-29 20:04:50,609 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE.pom
-2019-10-29 20:04:50,693 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE.pom
-2019-10-29 20:04:50,778 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE.pom
-2019-10-29 20:04:50,840 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE.pom
-2019-10-29 20:04:50,894 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE.pom
-2019-10-29 20:04:50,947 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE.pom
-2019-10-29 20:04:51,047 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE.pom
-2019-10-29 20:04:51,094 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE.pom
-2019-10-29 20:04:51,141 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE.pom
-2019-10-29 20:04:51,179 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE.pom
-2019-10-29 20:04:51,226 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE.jar
-2019-10-29 20:04:51,585 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE.jar
-2019-10-29 20:04:51,617 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE.jar
-2019-10-29 20:04:51,817 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE.jar
-2019-10-29 20:04:51,853 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE.jar
-2019-10-29 20:04:52,085 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE.jar
-2019-10-29 20:04:52,147 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE.jar
-2019-10-29 20:04:52,308 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE.jar
-2019-10-29 20:04:52,344 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE.jar
-2019-10-29 20:04:52,416 [Worker-19: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE.jar
-2019-10-29 20:04:53,168 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:04:53,168 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:04:53,183 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:04:53,190 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:04:54,232 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:54,592 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:54,796 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:04:54,972 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:04:54,976 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:04:54,980 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:04:55,464 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:3.2.3.RELEASE
-2019-10-29 20:04:55,676 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:56,012 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:56,113 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:3.2.3.RELEASE
-2019-10-29 20:04:56,282 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:56,530 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:56,695 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:3.2.3.RELEASE
-2019-10-29 20:04:56,864 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:57,134 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:57,196 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:3.2.3.RELEASE
-2019-10-29 20:04:57,381 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:57,535 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE-sources.jar
-2019-10-29 20:04:57,613 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:3.2.3.RELEASE
-2019-10-29 20:04:57,867 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:04:57,867 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:04:57,867 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:04:57,882 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:08:29,291 [Worker-20: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-29 20:08:29,543 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE.pom
-2019-10-29 20:08:29,610 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE.pom
-2019-10-29 20:08:29,680 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.0.RELEASE/spring-jcl-5.2.0.RELEASE.pom
-2019-10-29 20:08:29,722 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.0.RELEASE/spring-jcl-5.2.0.RELEASE.pom
-2019-10-29 20:08:29,773 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.pom
-2019-10-29 20:08:29,822 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.pom
-2019-10-29 20:08:29,869 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE.pom
-2019-10-29 20:08:29,922 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE.pom
-2019-10-29 20:08:29,969 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE.pom
-2019-10-29 20:08:30,022 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE.pom
-2019-10-29 20:08:30,153 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.0.RELEASE/spring-expression-5.2.0.RELEASE.pom
-2019-10-29 20:08:30,200 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.0.RELEASE/spring-expression-5.2.0.RELEASE.pom
-2019-10-29 20:08:30,253 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE.jar
-2019-10-29 20:08:30,770 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE.jar
-2019-10-29 20:08:30,817 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.0.RELEASE/spring-jcl-5.2.0.RELEASE.jar
-2019-10-29 20:08:30,970 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.0.RELEASE/spring-jcl-5.2.0.RELEASE.jar
-2019-10-29 20:08:31,002 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.jar
-2019-10-29 20:08:31,302 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.jar
-2019-10-29 20:08:31,371 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE.jar
-2019-10-29 20:08:31,487 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE.jar
-2019-10-29 20:08:31,525 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE.jar
-2019-10-29 20:08:31,741 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE.jar
-2019-10-29 20:08:31,788 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.0.RELEASE/spring-expression-5.2.0.RELEASE.jar
-2019-10-29 20:08:31,888 [Worker-20: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.0.RELEASE/spring-expression-5.2.0.RELEASE.jar
-2019-10-29 20:08:32,405 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:08:32,405 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:08:32,405 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:08:32,421 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:08:33,578 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:33,783 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:08:33,986 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:08:34,074 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:08:34,168 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:34,186 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:08:34,545 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.2.0.RELEASE
-2019-10-29 20:08:34,702 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.0.RELEASE/spring-jcl-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:34,797 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.0.RELEASE/spring-jcl-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:34,882 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.2.0.RELEASE
-2019-10-29 20:08:35,060 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:35,398 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:35,476 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.2.0.RELEASE
-2019-10-29 20:08:35,646 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:35,861 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.0.RELEASE/spring-aop-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:35,915 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.2.0.RELEASE
-2019-10-29 20:08:36,084 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:36,447 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:36,516 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.2.0.RELEASE
-2019-10-29 20:08:36,701 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.0.RELEASE/spring-expression-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:36,863 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.0.RELEASE/spring-expression-5.2.0.RELEASE-sources.jar
-2019-10-29 20:08:36,932 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.2.0.RELEASE
-2019-10-29 20:08:37,079 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:08:37,079 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:08:37,086 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:08:37,086 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:10:39,073 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:10:39,073 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:10:39,073 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:10:39,073 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:11:03,702 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:11:03,712 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:11:03,712 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:11:03,712 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:11:04,760 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:11:04,775 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:11:04,777 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:11:04,790 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:12:19,478 [Worker-24: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-29 20:12:20,601 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:12:20,616 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:12:20,616 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:12:20,616 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:12:22,240 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:12:22,256 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:12:22,271 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:12:22,320 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:13:15,343 [Worker-23: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-29 20:13:15,613 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.8.3/vertx-core-3.8.3.pom
-2019-10-29 20:13:15,682 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.8.3/vertx-core-3.8.3.pom
-2019-10-29 20:13:15,744 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/3.8.3/vertx-dependencies-3.8.3.pom
-2019-10-29 20:13:15,813 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/3.8.3/vertx-dependencies-3.8.3.pom
-2019-10-29 20:13:15,860 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.pom
-2019-10-29 20:13:15,898 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.pom
-2019-10-29 20:13:15,944 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.42.Final/netty-parent-4.1.42.Final.pom
-2019-10-29 20:13:16,013 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.42.Final/netty-parent-4.1.42.Final.pom
-2019-10-29 20:13:16,060 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.pom
-2019-10-29 20:13:16,113 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.pom
-2019-10-29 20:13:16,160 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.pom
-2019-10-29 20:13:16,214 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.pom
-2019-10-29 20:13:16,260 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.pom
-2019-10-29 20:13:16,314 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.pom
-2019-10-29 20:13:16,361 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.pom
-2019-10-29 20:13:16,398 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.pom
-2019-10-29 20:13:16,445 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.pom
-2019-10-29 20:13:16,545 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.pom
-2019-10-29 20:13:16,599 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.42.Final/netty-handler-proxy-4.1.42.Final.pom
-2019-10-29 20:13:16,661 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.42.Final/netty-handler-proxy-4.1.42.Final.pom
-2019-10-29 20:13:16,730 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final.pom
-2019-10-29 20:13:16,783 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final.pom
-2019-10-29 20:13:16,846 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.pom
-2019-10-29 20:13:16,931 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.pom
-2019-10-29 20:13:17,015 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final.pom
-2019-10-29 20:13:17,137 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final.pom
-2019-10-29 20:13:17,205 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.42.Final/netty-resolver-dns-4.1.42.Final.pom
-2019-10-29 20:13:17,268 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.42.Final/netty-resolver-dns-4.1.42.Final.pom
-2019-10-29 20:13:17,328 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.42.Final/netty-codec-dns-4.1.42.Final.pom
-2019-10-29 20:13:17,362 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.42.Final/netty-codec-dns-4.1.42.Final.pom
-2019-10-29 20:13:17,424 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.pom
-2019-10-29 20:13:17,478 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.pom
-2019-10-29 20:13:17,540 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.9/jackson-base-2.9.9.pom
-2019-10-29 20:13:17,578 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.9/jackson-base-2.9.9.pom
-2019-10-29 20:13:17,641 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.9/jackson-bom-2.9.9.pom
-2019-10-29 20:13:17,689 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.9/jackson-bom-2.9.9.pom
-2019-10-29 20:13:17,760 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.1/jackson-databind-2.9.9.1.pom
-2019-10-29 20:13:17,800 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.1/jackson-databind-2.9.9.1.pom
-2019-10-29 20:13:17,901 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.8.3/vertx-web-3.8.3.pom
-2019-10-29 20:13:17,962 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.8.3/vertx-web-3.8.3.pom
-2019-10-29 20:13:18,041 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-web-parent/3.8.3/vertx-web-parent-3.8.3.pom
-2019-10-29 20:13:18,084 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-web-parent/3.8.3/vertx-web-parent-3.8.3.pom
-2019-10-29 20:13:18,163 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.8.3/vertx-web-common-3.8.3.pom
-2019-10-29 20:13:18,205 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.8.3/vertx-web-common-3.8.3.pom
-2019-10-29 20:13:18,256 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.8.3/vertx-auth-common-3.8.3.pom
-2019-10-29 20:13:18,306 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.8.3/vertx-auth-common-3.8.3.pom
-2019-10-29 20:13:18,350 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-auth/3.8.3/vertx-auth-3.8.3.pom
-2019-10-29 20:13:18,397 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-auth/3.8.3/vertx-auth-3.8.3.pom
-2019-10-29 20:13:18,435 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.8.3/vertx-bridge-common-3.8.3.pom
-2019-10-29 20:13:18,482 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.8.3/vertx-bridge-common-3.8.3.pom
-2019-10-29 20:13:18,566 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.8.3/vertx-core-3.8.3.jar
-2019-10-29 20:13:18,981 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.8.3/vertx-core-3.8.3.jar
-2019-10-29 20:13:19,013 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.jar
-2019-10-29 20:13:19,166 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.jar
-2019-10-29 20:13:19,213 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.jar
-2019-10-29 20:13:19,298 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.jar
-2019-10-29 20:13:19,329 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.jar
-2019-10-29 20:13:19,482 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.jar
-2019-10-29 20:13:19,514 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.jar
-2019-10-29 20:13:19,629 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.jar
-2019-10-29 20:13:19,666 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.jar
-2019-10-29 20:13:19,751 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.jar
-2019-10-29 20:13:19,798 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.42.Final/netty-handler-proxy-4.1.42.Final.jar
-2019-10-29 20:13:19,899 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.42.Final/netty-handler-proxy-4.1.42.Final.jar
-2019-10-29 20:13:19,933 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final.jar
-2019-10-29 20:13:19,992 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final.jar
-2019-10-29 20:13:20,030 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.jar
-2019-10-29 20:13:20,186 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.jar
-2019-10-29 20:13:20,217 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final.jar
-2019-10-29 20:13:20,352 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final.jar
-2019-10-29 20:13:20,403 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.jar
-2019-10-29 20:13:20,660 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.jar
-2019-10-29 20:13:20,707 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.42.Final/netty-resolver-dns-4.1.42.Final.jar
-2019-10-29 20:13:20,760 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.42.Final/netty-resolver-dns-4.1.42.Final.jar
-2019-10-29 20:13:20,807 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.42.Final/netty-codec-dns-4.1.42.Final.jar
-2019-10-29 20:13:20,845 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.42.Final/netty-codec-dns-4.1.42.Final.jar
-2019-10-29 20:13:20,892 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar
-2019-10-29 20:13:21,007 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar
-2019-10-29 20:13:21,045 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.1/jackson-databind-2.9.9.1.jar
-2019-10-29 20:13:21,377 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.1/jackson-databind-2.9.9.1.jar
-2019-10-29 20:13:21,424 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.8.3/vertx-web-3.8.3.jar
-2019-10-29 20:13:21,509 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.8.3/vertx-web-3.8.3.jar
-2019-10-29 20:13:21,546 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.8.3/vertx-web-common-3.8.3.jar
-2019-10-29 20:13:21,662 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.8.3/vertx-web-common-3.8.3.jar
-2019-10-29 20:13:21,694 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.8.3/vertx-auth-common-3.8.3.jar
-2019-10-29 20:13:21,847 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.8.3/vertx-auth-common-3.8.3.jar
-2019-10-29 20:13:21,878 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.8.3/vertx-bridge-common-3.8.3.jar
-2019-10-29 20:13:21,979 [Worker-23: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.8.3/vertx-bridge-common-3.8.3.jar
-2019-10-29 20:13:23,667 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:13:23,667 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:13:23,667 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:13:23,667 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:13:25,399 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.8.3/vertx-core-3.8.3-sources.jar
-2019-10-29 20:13:26,064 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.8.3/vertx-core-3.8.3-sources.jar
-2019-10-29 20:13:26,317 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vertx:vertx-core:3.8.3
-2019-10-29 20:13:26,461 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:13:26,461 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:13:26,472 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:13:26,472 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:13:26,520 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final-sources.jar
-2019-10-29 20:13:26,780 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final-sources.jar
-2019-10-29 20:13:26,943 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-common:4.1.42.Final
-2019-10-29 20:13:27,162 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final-sources.jar
-2019-10-29 20:13:27,318 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final-sources.jar
-2019-10-29 20:13:27,501 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-buffer:4.1.42.Final
-2019-10-29 20:13:27,674 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final-sources.jar
-2019-10-29 20:13:27,916 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final-sources.jar
-2019-10-29 20:13:28,051 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport:4.1.42.Final
-2019-10-29 20:13:28,231 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final-sources.jar
-2019-10-29 20:13:28,423 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final-sources.jar
-2019-10-29 20:13:28,515 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-handler:4.1.42.Final
-2019-10-29 20:13:28,679 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final-sources.jar
-2019-10-29 20:13:28,923 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final-sources.jar
-2019-10-29 20:13:29,059 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec:4.1.42.Final
-2019-10-29 20:13:29,238 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.42.Final/netty-handler-proxy-4.1.42.Final-sources.jar
-2019-10-29 20:13:29,407 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.42.Final/netty-handler-proxy-4.1.42.Final-sources.jar
-2019-10-29 20:13:29,508 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-handler-proxy:4.1.42.Final
-2019-10-29 20:13:29,670 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final-sources.jar
-2019-10-29 20:13:29,802 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final-sources.jar
-2019-10-29 20:13:29,871 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec-socks:4.1.42.Final
-2019-10-29 20:13:30,053 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final-sources.jar
-2019-10-29 20:13:30,294 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final-sources.jar
-2019-10-29 20:13:30,390 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec-http:4.1.42.Final
-2019-10-29 20:13:30,586 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final-sources.jar
-2019-10-29 20:13:30,826 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final-sources.jar
-2019-10-29 20:13:30,946 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec-http2:4.1.42.Final
-2019-10-29 20:13:31,132 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final-sources.jar
-2019-10-29 20:13:31,320 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final-sources.jar
-2019-10-29 20:13:31,392 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-resolver:4.1.42.Final
-2019-10-29 20:13:31,564 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.42.Final/netty-resolver-dns-4.1.42.Final-sources.jar
-2019-10-29 20:13:31,696 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.42.Final/netty-resolver-dns-4.1.42.Final-sources.jar
-2019-10-29 20:13:31,760 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-resolver-dns:4.1.42.Final
-2019-10-29 20:13:31,953 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.42.Final/netty-codec-dns-4.1.42.Final-sources.jar
-2019-10-29 20:13:32,067 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.42.Final/netty-codec-dns-4.1.42.Final-sources.jar
-2019-10-29 20:13:32,132 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec-dns:4.1.42.Final
-2019-10-29 20:13:32,317 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9-sources.jar
-2019-10-29 20:13:32,533 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9-sources.jar
-2019-10-29 20:13:32,602 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.9.9
-2019-10-29 20:13:32,786 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.1/jackson-databind-2.9.9.1-sources.jar
-2019-10-29 20:13:33,133 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.1/jackson-databind-2.9.9.1-sources.jar
-2019-10-29 20:13:33,218 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.9.9.1
-2019-10-29 20:13:33,387 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.8.3/vertx-web-3.8.3-sources.jar
-2019-10-29 20:13:33,565 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.8.3/vertx-web-3.8.3-sources.jar
-2019-10-29 20:13:33,634 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vertx:vertx-web:3.8.3
-2019-10-29 20:13:33,803 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.8.3/vertx-web-common-3.8.3-sources.jar
-2019-10-29 20:13:33,950 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.8.3/vertx-web-common-3.8.3-sources.jar
-2019-10-29 20:13:34,019 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vertx:vertx-web-common:3.8.3
-2019-10-29 20:13:34,188 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.8.3/vertx-auth-common-3.8.3-sources.jar
-2019-10-29 20:13:34,404 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.8.3/vertx-auth-common-3.8.3-sources.jar
-2019-10-29 20:13:34,489 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vertx:vertx-auth-common:3.8.3
-2019-10-29 20:13:34,652 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.8.3/vertx-bridge-common-3.8.3-sources.jar
-2019-10-29 20:13:34,752 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.8.3/vertx-bridge-common-3.8.3-sources.jar
-2019-10-29 20:13:34,890 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vertx:vertx-bridge-common:3.8.3
-2019-10-29 20:13:35,135 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:13:35,141 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:13:35,143 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:13:35,150 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:18:33,368 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:18:33,368 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:18:33,368 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:18:33,368 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:27:20,815 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:27:20,815 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:27:20,831 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:27:20,831 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:27:25,826 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:27:25,826 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:27:25,826 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:27:25,826 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:33:55,148 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:33:55,148 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:33:55,164 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:33:55,164 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:36:52,643 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:36:52,643 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:36:52,643 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:36:52,643 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:36:58,260 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:36:58,260 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:36:58,260 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:36:58,260 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:38:54,382 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:38:54,382 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:38:54,382 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:38:54,382 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:43:45,269 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:43:45,269 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:43:45,269 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:43:45,269 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:43:55,101 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:43:55,101 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:43:55,101 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:43:55,101 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:44:01,278 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:44:01,278 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:44:01,293 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:44:01,293 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:45:44,556 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:45:44,572 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:45:44,572 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:45:44,572 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:48:32,161 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:48:32,161 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:48:32,177 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:48:32,177 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:49:19,221 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:49:19,222 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:49:19,224 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:49:19,225 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:50:06,032 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:50:06,032 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:50:06,032 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:50:06,047 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:50:34,456 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:50:34,456 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:50:34,456 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:50:34,471 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:52:17,478 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:52:17,478 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:52:17,478 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:52:17,494 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:54:19,044 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:54:19,044 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 20:54:19,050 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 20:54:19,050 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:09:05,687 [Worker-43: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:09:05,687 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:09:05,687 [Worker-43: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:09:05,703 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:49:21,570 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:49:21,574 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:49:21,578 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:49:21,586 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:49:41,551 [Worker-48: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:49:41,571 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:49:41,571 [Worker-48: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:49:41,575 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:53:16,009 [Worker-56: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:53:16,009 [Worker-56: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:53:16,009 [Worker-56: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:53:16,009 [Worker-56: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:53:25,886 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:53:25,886 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:53:25,886 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:53:25,902 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:53:53,105 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:53:53,105 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:53:53,105 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:53:53,105 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:54:02,421 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:54:02,421 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:54:02,421 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:54:02,421 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:54:14,440 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:54:14,440 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:54:14,440 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:54:14,440 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:55:03,381 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:55:03,381 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:55:03,381 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:55:03,396 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:55:28,280 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:55:28,280 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:55:28,280 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:55:28,280 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:55:37,872 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:55:37,872 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:55:37,879 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:55:37,879 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:56:13,276 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:56:13,276 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:56:13,276 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:56:13,276 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:56:14,972 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:56:14,972 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:56:14,979 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:56:14,979 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:56:19,530 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:56:19,530 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:56:19,530 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:56:19,530 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:56:21,620 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:56:21,620 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:56:21,620 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:56:21,620 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:57:12,625 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:57:12,625 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:57:12,625 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:57:12,625 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:57:26,199 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:57:26,199 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:57:26,199 [Worker-53: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:57:26,199 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:57:45,419 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:57:45,419 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:57:45,419 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:57:45,434 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:57:56,356 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:57:56,356 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:57:56,356 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:57:56,372 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:58:26,675 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:58:26,675 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:58:26,675 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:58:26,675 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:59:32,063 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:59:32,063 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 21:59:32,063 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 21:59:32,063 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:00:07,123 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:00:07,123 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:00:07,123 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:00:07,123 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:00:32,337 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:00:32,337 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:00:32,337 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:00:32,337 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:02:36,107 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:02:36,107 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:02:36,107 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:02:36,107 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:06:25,176 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:06:25,176 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:06:25,176 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:06:25,176 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:10:20,335 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:10:20,335 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:10:20,335 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:10:20,335 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:12:17,241 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:12:17,241 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:12:17,241 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:12:17,241 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:13:55,947 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:13:55,947 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:13:55,947 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:13:55,947 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:14:11,275 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:14:11,275 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:14:11,275 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:14:11,291 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:14:14,150 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:14:14,150 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:14:14,150 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:14:14,150 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:14:29,039 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:14:29,045 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:14:29,045 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:14:29,045 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:16:15,957 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:16:15,957 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:16:15,957 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:16:15,957 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:24:11,863 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:24:11,863 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:24:11,867 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:24:11,867 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:24:38,307 [Worker-72: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:24:38,307 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:24:38,307 [Worker-72: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:24:38,307 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:26:29,583 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:26:29,583 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:26:29,583 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:26:29,583 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:29:51,989 [Worker-74: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:29:51,989 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:29:51,989 [Worker-74: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:29:51,989 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:29:58,736 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:29:58,736 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:29:58,736 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:29:58,736 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:31:11,604 [Worker-65: Launching Executing install in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-29 22:31:11,604 [Worker-65: Launching Executing install in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
-2019-10-29 22:31:18,600 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:31:18,600 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:31:18,600 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:31:18,600 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:31:58,743 [Worker-75: Launching Executing install in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-29 22:31:58,743 [Worker-75: Launching Executing install in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
-2019-10-29 22:32:04,797 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:32:04,797 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:32:04,797 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:32:04,797 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:35:47,735 [Worker-78: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:35:47,735 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:35:47,735 [Worker-78: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:35:47,735 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:35:56,011 [Worker-80: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:35:56,011 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:35:56,027 [Worker-80: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:35:56,027 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:38:09,822 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:38:09,822 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:38:09,822 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:38:09,822 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:38:33,343 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:38:33,343 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:38:33,359 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:38:33,359 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:38:36,724 [Worker-81: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:38:36,724 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:38:36,724 [Worker-81: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:38:36,724 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:43:25,516 [Worker-84: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:43:25,516 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-29 22:43:25,516 [Worker-84: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-29 22:43:25,516 [Worker-84: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:27:14,769 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:27:14,769 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:27:14,769 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:27:14,769 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:28:35,645 [Worker-98: Launching Executing clean in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:28:35,645 [Worker-98: Launching Executing clean in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
-2019-10-30 07:28:39,484 [Worker-97: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:28:39,484 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:28:39,484 [Worker-97: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:28:39,500 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:28:43,315 [Worker-99: Launching Executing install in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:28:43,315 [Worker-99: Launching Executing install in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
-2019-10-30 07:28:47,768 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:28:47,768 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:28:47,784 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:28:47,784 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:29:57,449 [Worker-99: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:29:57,449 [Worker-99: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
-2019-10-30 07:30:32,461 [Worker-97: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:30:32,461 [Worker-97: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
-2019-10-30 07:31:00,701 [Worker-91: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:31:00,716 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:31:00,716 [Worker-91: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:31:00,716 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:31:03,829 [Worker-96: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:31:03,829 [Worker-96: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
-2019-10-30 07:35:59,036 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-30 07:36:50,612 [Worker-91: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:36:50,612 [Worker-91: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
-2019-10-30 07:37:58,490 [Worker-102: Launching Executing clean in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:37:58,490 [Worker-102: Launching Executing clean in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
-2019-10-30 07:38:01,717 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:38:01,717 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:38:01,717 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:38:01,733 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:38:11,703 [Worker-101: Launching Executing install in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:38:11,703 [Worker-101: Launching Executing install in C__Users_bg_04_vertx_eclipse_VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
-2019-10-30 07:38:16,591 [Worker-101: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:38:16,591 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:38:16,591 [Worker-101: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:38:16,591 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:41:08,946 [Worker-96: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-30 07:41:09,457 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:41:09,457 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:41:09,457 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-30 07:41:09,472 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-30 07:41:11,033 [Worker-91: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\bg_04\vertx_eclipse\VertxAndSpring
-2019-10-30 07:41:11,033 [Worker-91: Launching VertxAndSpring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
-2019-10-31 07:12:38,270 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
-2019-10-31 07:13:15,940 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:13:15,950 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:13:15,954 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:13:15,956 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:19:49,346 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:19:49,352 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:19:49,354 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:19:49,356 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:20:00,427 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:20:00,429 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:20:00,431 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:20:00,433 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:22:15,020 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:22:16,044 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:22:16,045 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:22:16,047 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:23:33,670 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:23:33,673 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:23:33,674 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:23:33,677 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:27:19,797 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:27:19,831 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:27:19,833 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:27:19,843 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:30:23,658 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:30:23,660 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:30:23,661 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:30:23,664 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:30:28,938 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:30:28,940 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:30:28,943 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:30:28,945 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:41:56,247 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:41:56,316 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:41:56,316 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:41:56,331 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:43:52,772 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:43:52,772 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:43:52,772 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:43:52,772 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:44:16,948 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:44:16,948 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:44:16,948 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 07:44:16,948 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 07:50:14,691 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2019-10-31 18:56:51,845 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 18:56:51,860 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 18:56:51,865 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 18:56:51,868 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 19:03:11,168 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 19:03:11,179 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 19:03:11,180 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 19:03:11,182 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 19:30:43,912 [Worker-24: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 19:30:43,919 [Worker-24: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 19:30:43,919 [Worker-24: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 19:30:43,919 [Worker-24: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 19:57:52,644 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 19:57:52,644 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 19:57:52,644 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 19:57:52,644 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:03:43,881 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:03:43,881 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:03:43,881 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:03:43,881 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:03:53,912 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:03:53,927 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:03:53,927 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:03:53,927 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:22:32,289 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:22:32,292 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:22:32,293 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:22:32,296 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:52:18,750 [Worker-52: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-31 20:52:19,667 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.8.3/vertx-jdbc-client-3.8.3.pom
-2019-10-31 20:52:19,852 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.8.3/vertx-jdbc-client-3.8.3.pom
-2019-10-31 20:52:19,921 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.8.3/vertx-sql-common-3.8.3.pom
-2019-10-31 20:52:20,037 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.8.3/vertx-sql-common-3.8.3.pom
-2019-10-31 20:52:20,106 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mchange/c3p0/0.9.5.4/c3p0-0.9.5.4.pom
-2019-10-31 20:52:20,171 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mchange/c3p0/0.9.5.4/c3p0-0.9.5.4.pom
-2019-10-31 20:52:20,222 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15.pom
-2019-10-31 20:52:20,281 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15.pom
-2019-10-31 20:52:20,373 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.8.3/vertx-jdbc-client-3.8.3.jar
-2019-10-31 20:52:20,526 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.8.3/vertx-jdbc-client-3.8.3.jar
-2019-10-31 20:52:20,588 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.8.3/vertx-sql-common-3.8.3.jar
-2019-10-31 20:52:20,727 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.8.3/vertx-sql-common-3.8.3.jar
-2019-10-31 20:52:20,789 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mchange/c3p0/0.9.5.4/c3p0-0.9.5.4.jar
-2019-10-31 20:52:21,090 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mchange/c3p0/0.9.5.4/c3p0-0.9.5.4.jar
-2019-10-31 20:52:21,143 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15.jar
-2019-10-31 20:52:21,444 [Worker-52: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15.jar
-2019-10-31 20:52:22,859 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:52:22,859 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:52:22,859 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:52:22,859 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:52:23,703 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.8.3/vertx-jdbc-client-3.8.3-sources.jar
-2019-10-31 20:52:24,072 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.8.3/vertx-jdbc-client-3.8.3-sources.jar
-2019-10-31 20:52:24,172 [Worker-54: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vertx:vertx-jdbc-client:3.8.3
-2019-10-31 20:52:24,420 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.8.3/vertx-sql-common-3.8.3-sources.jar
-2019-10-31 20:52:24,605 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:52:24,620 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:52:24,620 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:52:24,620 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:52:24,735 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.8.3/vertx-sql-common-3.8.3-sources.jar
-2019-10-31 20:52:24,820 [Worker-54: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.vertx:vertx-sql-common:3.8.3
-2019-10-31 20:52:25,036 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mchange/c3p0/0.9.5.4/c3p0-0.9.5.4-sources.jar
-2019-10-31 20:52:25,328 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mchange/c3p0/0.9.5.4/c3p0-0.9.5.4-sources.jar
-2019-10-31 20:52:25,476 [Worker-54: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.mchange:c3p0:0.9.5.4
-2019-10-31 20:52:25,669 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15-sources.jar
-2019-10-31 20:52:26,038 [Worker-54: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15-sources.jar
-2019-10-31 20:52:26,107 [Worker-54: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.mchange:mchange-commons-java:0.2.15
-2019-10-31 20:52:26,338 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:52:26,338 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 20:52:26,354 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 20:52:26,354 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 21:13:51,258 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 21:13:51,260 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 21:13:51,262 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 21:13:51,265 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 21:21:04,577 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 21:21:04,580 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 21:21:04,582 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 21:21:04,585 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 21:22:19,944 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 21:22:19,946 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 21:22:19,948 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 21:22:19,951 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 21:31:41,968 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 21:31:41,970 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 21:31:41,971 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 21:31:41,973 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:02:25,027 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:02:25,029 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:02:25,031 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:02:25,034 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:04:01,473 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:04:01,475 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:04:01,478 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:04:01,480 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:04:46,970 [Worker-76: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:04:46,973 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:04:46,975 [Worker-76: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:04:46,978 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:04:53,294 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:04:53,296 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:04:53,298 [Worker-77: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:04:53,301 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:05:17,656 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:05:17,657 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:05:17,660 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:05:17,662 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:09:27,442 [Worker-78: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:09:27,444 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:09:27,446 [Worker-78: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:09:27,448 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:09:41,227 [Worker-76: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:09:41,229 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:09:41,230 [Worker-76: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:09:41,234 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:10:23,631 [Worker-74: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:10:23,633 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:10:23,636 [Worker-74: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:10:23,639 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:12:45,231 [Worker-80: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:12:45,233 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:12:45,235 [Worker-80: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:12:45,237 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:12:51,842 [Worker-82: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:12:51,844 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:12:51,845 [Worker-82: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:12:51,847 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:14:31,662 [Worker-78: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:14:31,664 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:14:31,665 [Worker-78: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:14:31,667 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:22:20,469 [Worker-82: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
-2019-10-31 22:22:21,593 [Worker-82: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.2.8/postgresql-42.2.8.pom
-2019-10-31 22:22:21,652 [Worker-82: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.2.8/postgresql-42.2.8.pom
-2019-10-31 22:22:21,710 [Worker-82: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-parent/1.1.6/pgjdbc-core-parent-1.1.6.pom
-2019-10-31 22:22:21,773 [Worker-82: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-parent/1.1.6/pgjdbc-core-parent-1.1.6.pom
-2019-10-31 22:22:21,825 [Worker-82: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-versions/1.1.6/pgjdbc-versions-1.1.6.pom
-2019-10-31 22:22:21,886 [Worker-82: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-versions/1.1.6/pgjdbc-versions-1.1.6.pom
-2019-10-31 22:22:21,973 [Worker-82: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.2.8/postgresql-42.2.8.jar
-2019-10-31 22:22:22,265 [Worker-82: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.2.8/postgresql-42.2.8.jar
-2019-10-31 22:22:23,186 [Worker-82: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:22:23,189 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:22:23,192 [Worker-82: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:22:23,197 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:22:23,964 [Worker-79: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.2.8/postgresql-42.2.8-sources.jar
-2019-10-31 22:22:24,342 [Worker-79: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.2.8/postgresql-42.2.8-sources.jar
-2019-10-31 22:22:25,124 [Worker-79: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.postgresql:postgresql:42.2.8
-2019-10-31 22:22:25,636 [Worker-86: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:22:25,657 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:22:25,661 [Worker-86: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:22:25,665 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:25:24,378 [Worker-87: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:25:24,379 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:25:24,381 [Worker-87: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:25:24,383 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:28:32,949 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:28:32,949 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:28:32,949 [Worker-79: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:28:32,949 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:41:25,999 [Worker-92: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:41:26,003 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:41:26,007 [Worker-92: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:41:26,007 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:46:11,278 [Worker-92: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:46:11,278 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:46:11,294 [Worker-92: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:46:11,294 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:49:03,488 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:49:03,489 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 22:49:03,491 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 22:49:03,493 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:02:16,954 [Worker-102: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:02:16,954 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:02:16,954 [Worker-102: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:02:16,954 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:02:52,480 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:02:52,480 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:02:52,480 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:02:52,480 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:03:51,119 [Worker-102: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:03:51,125 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:03:51,141 [Worker-102: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:03:51,141 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:04:00,320 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:04:00,409 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:04:00,431 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:04:00,451 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:04:20,274 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:04:20,284 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:04:20,287 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:04:20,293 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:04:31,892 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:04:31,907 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:04:31,907 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:04:31,939 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:04:37,179 [Worker-102: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:04:37,179 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:04:37,179 [Worker-102: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:04:37,179 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:05:04,998 [Worker-102: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:05:05,029 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:05:05,029 [Worker-102: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:05:05,044 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:05:09,278 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:05:09,278 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:05:09,278 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:05:09,278 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:07:50,206 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:07:50,206 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:07:50,222 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:07:50,222 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:08:23,990 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:08:23,990 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:08:23,990 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:08:23,990 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:09:20,519 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:09:20,523 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:09:20,523 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:09:20,527 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:10:13,042 [Worker-106: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:10:13,042 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:10:13,042 [Worker-106: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:10:13,042 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:13:57,618 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:13:57,618 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-10-31 23:13:57,618 [Worker-98: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-10-31 23:13:57,618 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-11-01 06:54:24,797 [Worker-117: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-11-01 06:54:24,797 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-11-01 06:54:24,812 [Worker-117: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-11-01 06:54:24,812 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-11-01 06:56:14,293 [Worker-116: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-11-01 06:56:14,295 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-11-01 06:56:14,295 [Worker-116: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-11-01 06:56:14,295 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-11-01 06:56:48,745 [Worker-117: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-11-01 06:56:48,753 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-11-01 06:56:48,755 [Worker-117: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-11-01 06:56:48,755 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-11-01 14:21:03,072 [Worker-137: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-11-01 14:21:03,152 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2019-11-01 14:21:03,160 [Worker-137: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
-2019-11-01 14:21:03,168 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-01 23:12:36,863 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-02 00:04:14,971 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-02 00:04:55,047 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.faac.ebb.training:VertxAndSpring:0.0.1-SNAPSHOT @ C:\Users\bg_04\vertx_eclipse\VertxAndSpring\pom.xml.
+2019-11-02 00:04:56,885 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VertxAndSpring/src/main/java
+2019-11-02 00:04:56,886 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VertxAndSpring/src/main/resources
+2019-11-02 00:04:56,887 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VertxAndSpring/src/test/java
+2019-11-02 00:04:56,887 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VertxAndSpring/src/test/resources
+2019-11-02 00:04:57,232 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2019-11-02 00:05:07,442 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:05:07,469 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:05:07,471 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:05:07,487 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:10:36,697 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:10:36,709 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:10:36,710 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:10:36,712 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:10:47,644 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:10:47,648 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:10:47,650 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:10:47,654 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:10:54,758 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:10:54,760 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:10:54,762 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:10:54,765 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:11:47,428 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:11:47,443 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:11:47,445 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:11:47,460 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:12:09,505 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:12:09,534 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:12:09,541 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:12:09,569 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:16:17,205 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:16:17,212 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:16:17,217 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:16:17,235 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:16:32,674 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:16:32,678 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:16:32,683 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:16:32,686 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:02,425 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:02,428 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:02,429 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:02,432 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:18,169 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:18,173 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:18,177 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:18,181 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:23,723 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:23,727 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:23,729 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:23,732 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:36,507 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:36,512 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:36,518 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:36,522 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:44,366 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:44,371 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:17:44,374 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:17:44,377 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:04,805 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:04,808 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:04,810 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:04,813 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:23,657 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:23,661 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:23,663 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:23,666 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:39,601 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:39,611 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:39,617 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:39,623 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:45,028 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:45,039 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:45,041 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:45,045 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:54,313 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:54,319 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:18:54,322 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:18:54,325 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:20:34,182 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:20:34,256 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:20:34,258 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:20:34,288 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:20:59,755 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:20:59,758 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:20:59,760 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:20:59,763 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:21:11,883 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:21:11,886 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:21:11,888 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:21:11,891 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:22:08,108 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:22:08,111 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:22:08,118 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:22:08,128 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:24:33,521 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:24:33,525 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:24:33,527 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:24:33,535 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:25:26,797 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:25:26,800 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:25:26,803 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:25:26,811 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:27:55,699 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:27:55,707 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:27:55,708 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:27:55,710 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:28:35,592 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:28:35,599 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:28:35,607 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:28:35,616 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:33:15,044 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:33:15,052 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:33:15,053 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:33:15,057 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:34:05,596 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:34:05,607 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:34:05,610 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:34:05,614 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:35:54,894 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:35:54,898 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:35:54,900 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:35:54,902 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:36:03,088 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:36:03,091 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:36:03,093 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:36:03,097 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:36:10,436 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:36:10,443 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:36:10,446 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:36:10,449 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:36:29,164 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:36:29,180 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:36:29,183 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:36:29,189 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:45:47,174 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:45:47,204 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:45:47,213 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:45:47,217 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:46:08,235 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:46:08,249 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:46:08,252 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:46:08,259 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:47:21,340 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:47:21,342 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:47:21,344 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:47:21,347 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:52:14,115 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:52:14,120 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:52:14,123 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:52:14,127 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:53:01,482 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:53:01,485 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:53:01,487 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:53:01,493 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:56:03,276 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:56:03,293 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 00:56:03,294 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 00:56:03,315 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:00:26,974 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:00:26,977 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:00:26,979 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:00:26,981 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:01:37,435 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:01:37,480 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:01:37,483 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:01:37,492 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:01:47,213 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:01:47,220 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:01:47,222 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:01:47,225 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:02:00,517 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:02:00,525 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:02:00,529 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:02:00,534 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:04:20,084 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:04:20,127 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:04:20,142 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:04:20,152 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:04:47,862 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:04:47,865 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:04:47,867 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:04:47,870 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:06:44,257 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:06:44,264 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:06:44,266 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:06:44,271 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:12:35,750 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:12:35,771 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:12:35,781 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:12:35,785 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:12:46,701 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:12:46,729 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:12:46,733 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:12:46,761 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:13:04,778 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:13:04,780 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:13:04,782 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:13:04,786 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:13:47,839 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:13:47,842 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:13:47,843 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:13:47,846 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:14:02,834 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:14:02,836 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:14:02,838 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:14:02,841 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:34:37,247 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:34:37,250 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:34:37,251 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:34:37,254 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:34:52,798 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:34:52,800 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:34:52,802 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:34:52,804 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:35:06,963 [Worker-36: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:35:06,967 [Worker-36: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:35:06,971 [Worker-36: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:35:06,982 [Worker-36: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:37:33,223 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:37:33,227 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:37:33,231 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:37:33,234 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:39:02,245 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:39:02,247 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:39:02,250 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:39:02,253 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:41:12,379 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:41:12,390 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:41:12,392 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:41:12,396 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:41:24,178 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:41:24,180 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:41:24,182 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:41:24,185 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:45:58,405 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:45:58,408 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:45:58,409 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:45:58,412 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:48:39,441 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:48:39,457 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 01:48:39,461 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 01:48:39,473 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 09:48:54,472 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 09:48:54,487 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 09:48:54,487 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 09:48:54,487 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 09:49:16,687 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 09:49:16,703 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-02 09:49:16,719 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-02 09:49:16,719 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-15 08:53:49,133 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

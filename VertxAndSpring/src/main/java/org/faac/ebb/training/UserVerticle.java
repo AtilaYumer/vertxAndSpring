@@ -1,9 +1,11 @@
 package org.faac.ebb.training;
 
+import org.faac.ebb.training.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import io.vertx.core.AbstractVerticle;
-import io.vertx.core.Vertx;
+import io.vertx.core.json.JsonArray;
+import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 
@@ -29,7 +31,17 @@ public class UserVerticle extends AbstractVerticle {
 	}
 
 	private void getUsers(RoutingContext context) {
-		Vertx vertx = Vertx.vertx();
-		userService.findUsers(context, vertx);
+	    userService.findUsers(context, findUsersAsynResultHandler -> {
+	    	if (findUsersAsynResultHandler.succeeded()) {
+	    		JsonArray response = new JsonArray();
+	    		for(User user : findUsersAsynResultHandler.result()) {
+	    			JsonObject object = new JsonObject(user.toString());
+	    			response.add(object);
+	    		}
+				context.response()
+				.putHeader("content-type", "application/json")
+				.end(response.toString());
+			}
+	    });
 	}
 }

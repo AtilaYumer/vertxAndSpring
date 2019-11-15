@@ -1,10 +1,16 @@
 package org.faac.ebb.training;
 
-import io.vertx.core.Vertx;
+import java.util.List;
+
+import org.faac.ebb.training.model.User;
+
+import io.vertx.core.AsyncResult;
+import io.vertx.core.Handler;
 import io.vertx.ext.web.RoutingContext;
 
 public interface UserService {
-	void createUser();
 	
-	void findUsers(RoutingContext context, Vertx vertx);
+	void createUser(RoutingContext context, Handler<AsyncResult<List<User>>> resultHandle);
+
+	void findUsers(RoutingContext context, Handler<AsyncResult<List<User>>> resultHandler);
 }

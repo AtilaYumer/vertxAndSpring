@@ -1,17 +1,26 @@
 package org.faac.ebb.training.dao;
 
-import io.vertx.core.Vertx;
-import io.vertx.core.json.JsonArray;
-import io.vertx.core.json.JsonObject;
-import io.vertx.ext.jdbc.JDBCClient;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.faac.ebb.training.config.AsyncResultBuilder;
+import org.faac.ebb.training.model.User;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import io.vertx.core.AsyncResult;
+import io.vertx.core.Handler;
 import io.vertx.ext.sql.SQLClient;
 import io.vertx.ext.sql.SQLConnection;
 import io.vertx.ext.web.RoutingContext;
 
 public class UserDaoImpl implements UserDao {
+
+	@Autowired
+	private SQLClient client;
+
 	@Override
 	public void insert() {
-	
+
 	}
 
 	@Override
@@ -27,28 +36,28 @@ public class UserDaoImpl implements UserDao {
 	}
 
 	@Override
-	public void getUsers(RoutingContext context, Vertx vertx) {
-		JsonObject config = new JsonObject()
-				.put("url", "jdbc:postgresql://localhost:5432/training")
-				.put("driver_class", "org.postgresql.Driver")
-				.put("user", "postgres")
-				.put("password", "postgres")
-				.put("max_pool_size", 30);
-
-		SQLClient client = JDBCClient.createNonShared(vertx, config);
+	public void getUsers(RoutingContext context, Handler<AsyncResult<List<User>>> resultHandler) {
 		client.getConnection(res -> {
 			if (res.succeeded()) {
 
 				SQLConnection connection = res.result();
 
 				connection.query("SELECT * FROM public.user", userAsyncResultHandler -> {
-					client.close();
 					if (userAsyncResultHandler.succeeded()) {
-						JsonArray arr = new JsonArray();
-						userAsyncResultHandler.result().getRows().forEach(arr::add);
-						context.response().putHeader("content-type", "application/json").end(arr.encode());
+						List<User> users = new ArrayList<>();
+						userAsyncResultHandler.result().getRows().forEach(json -> {
+							User user = new User();
+							user.setId(json.getLong("id"));
+							user.setFirstName(json.getString("first_name"));
+							user.setLastName(json.getString("last_name"));
+
+							users.add(user);
+						});
+						resultHandler
+								.handle(new AsyncResultBuilder<List<User>>().withSuccess().withResult(users).build());
 					} else {
-						System.out.println("DB ERROR");
+						resultHandler.handle(new AsyncResultBuilder<List<User>>().withFail()
+								.withCause(userAsyncResultHandler.cause()).build());
 					}
 				});
 			} else {

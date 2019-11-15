@@ -1,5 +1,0 @@
-package org.faac.ebb.training.config;
-
-public class SpringConfig {
-
-}
