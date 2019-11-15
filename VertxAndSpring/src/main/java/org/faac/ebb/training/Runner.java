@@ -11,7 +11,9 @@ public class Runner {
 		ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfiguration.class);
 
 		UserVerticle userVerticle = (UserVerticle) context.getBean(UserVerticle.class);
+		MessageVerticle messageVerticle = (MessageVerticle) context.getBean(MessageVerticle.class);
 		Vertx vertx = Vertx.vertx();
 		vertx.deployVerticle(userVerticle);
+		vertx.deployVerticle(messageVerticle);
 	}
 }

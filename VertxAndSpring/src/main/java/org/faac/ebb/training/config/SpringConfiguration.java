@@ -1,5 +1,6 @@
 package org.faac.ebb.training.config;
 
+import org.faac.ebb.training.MessageVerticle;
 import org.faac.ebb.training.UserService;
 import org.faac.ebb.training.UserServiceImpl;
 import org.faac.ebb.training.UserVerticle;
@@ -51,5 +52,10 @@ public class SpringConfiguration {
 	@Bean
 	public UserService userService() {
 		return new UserServiceImpl();
+	}
+	
+	@Bean
+	public MessageVerticle messageVerticle() {
+		return new MessageVerticle();
 	}
 }
